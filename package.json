@@ -57,6 +57,7 @@
     "@storybook/react": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.10.4",
     "prop-types": "^15.8.1",
     "webpack": "^5.74.0"
   },
@@ -64,6 +65,9 @@
     "start": "start-storybook -p 6006",
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  }
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=13a6c76c6563"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook@0.1.0"
 }
